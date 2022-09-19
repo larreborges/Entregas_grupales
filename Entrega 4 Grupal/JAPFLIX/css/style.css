@@ -1,3 +1,7 @@
+* {
+    color: aliceblue;
+}
+
 .img-card-fit {
     object-fit: cover;
     width: 100%;

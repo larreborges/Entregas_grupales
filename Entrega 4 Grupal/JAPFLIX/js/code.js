@@ -32,14 +32,14 @@ const showCategoriesList = async () => {
                                 <p style="color:black;">${movieList.overview}</p>
                                 <p>${movieList.genres} </p>
                                 <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> More </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Year: ${movieList.release_date} </a></li>
-    <li><a class="dropdown-item" href="#">Runtime: ${movieList.runtime} mins </a></li>
-    <li><a class="dropdown-item" href="#">Budget: $${movieList.budget} </a></li>
-    <li><a class="dropdown-item" href="#">Revenue: $${movieList.revenue} </a></li>
-  </ul>
-</div>
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> More </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Year: ${movieList.release_date} </a></li>
+                                        <li><a class="dropdown-item" href="#">Runtime: ${movieList.runtime} mins </a></li>
+                                        <li><a class="dropdown-item" href="#">Budget: $${movieList.budget} </a></li>
+                                        <li><a class="dropdown-item" href="#">Revenue: $${movieList.revenue} </a></li>
+                                    </ul>
+                                </div>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">

@@ -38,3 +38,12 @@ main {
     margin: 0.2cm;
     padding: 0.2cm;
 }
+
+#generos {
+    border: 0.02cm;
+    border-style: solid;
+    border-radius: 0.5cm;
+    border-color: dimgray;
+    margin: 0.2cm;
+    padding: 0.2cm;
+}

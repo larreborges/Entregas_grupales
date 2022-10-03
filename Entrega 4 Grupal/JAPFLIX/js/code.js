@@ -40,7 +40,7 @@ const showCategoriesList = async () => {
               <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasTopLabel" style="color:black;">${movieList.title}</h5>
                   <p style="color:black;">${movieList.overview}</p>
-                  <p style="color:black;">${peliGeneros}</p>
+                  <p style="color:black;" id="generos">${peliGeneros}</p>
                     <div class="dropdown">
                       <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> More </button>
                         <ul class="dropdown-menu">

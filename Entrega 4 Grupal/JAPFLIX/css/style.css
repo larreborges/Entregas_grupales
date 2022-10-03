@@ -30,3 +30,11 @@ main {
 .offcanvas-top{
     height: fit-content;
 }
+
+#offcanvasTopLabel{
+    border: 0.05cm;
+    border-style: solid;
+    border-radius: 0.5cm;
+    margin: 0.2cm;
+    padding: 0.2cm;
+}
